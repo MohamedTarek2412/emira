@@ -1,0 +1,144 @@
+            header {
+                height: 100vh;
+                background: url("./—Pngtree—summer\ atmosphere\ restaurant\ supermarket\ vegetable_1098004.jpg") center center/cover no-repeat;
+            }
+            
+            header .review {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 75%;
+            }
+            
+            header .review h1 {
+                font-size: 40px;
+                color: white;
+            }
+            
+            header .review p {
+                margin: 20px 0px;
+                font-size: 20px;
+                color: white;
+            }
+            
+            #navbar img {
+                width: 90px;
+            }
+            
+            #navbar {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            
+            ul {
+                list-style: none;
+            }
+            
+            a {
+                text-decoration: none;
+            }
+            
+            #navbar ul {
+                display: flex;
+                margin-right: 100px;
+            }
+            
+            #navbar ul img {
+                box-sizing: border-box;
+                display: flex;
+            }
+            
+            #navbar ul li a {
+                padding: 15px 20px;
+                color: white;
+            }
+            
+            #navbar ul li a:hover {
+                border-bottom: 3px solid yellow;
+            }
+            
+            header::before {
+                content: "";
+                height: 100%;
+                width: 100%;
+                top: 0;
+                left: 0;
+                position: absolute;
+                background: rgb(0, 0, 0, 0.6);
+            }
+            
+            header * {
+                z-index: 10;
+            }
+            
+            #Menu h2 {
+                text-align: center;
+                font-size: 40px;
+                color: brown;
+            }
+            
+            #Menu .MenuItems {
+                display: flex;
+            }
+            
+            #Menu .MenuItems img {
+                width: 100px;
+                border-radius: 50%;
+            }
+            
+            #Menu .MenuItems h3 {
+                color: darkgoldenrod;
+            }
+            
+            #Menu .MenuItems .MenuItem {
+                display: flex;
+                margin: 40px;
+            }
+            
+            #Menu .MenuItems .MenuItemsLeft {
+                margin-right: 400px;
+            }
+            
+            #Menu .MenuItems .MenuItemsRight {
+                margin-left: 200px;
+            }
+            
+            #Menu .MenuItems h3 {
+                padding-top: 25px;
+                margin-left: 25px;
+            }
+            
+            #ContactUs {
+                margin-top: 70px;
+            }
+            
+            #ContactUs .contact-info {
+                display: flex;
+                justify-content: center;
+            }
+            
+            #ContactUs .contact-info .left {
+                margin-right: 100px;
+            }
+            
+            #ContactUs .contact-info .right {
+                margin-left: 50px;
+            }
+            
+            #ContactUs .contact-info h3 {
+                font-size: 25px;
+            }
+            
+            #footer {
+                background-color: #383848;
+                text-align: center;
+                color: aliceblue;
+                padding: 15px;
+                font-size: 14px;
+            }
+            
+            #footer a {
+                color: black;
+            }
